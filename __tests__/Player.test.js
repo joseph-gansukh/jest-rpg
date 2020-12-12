@@ -3,7 +3,7 @@ const Potion = require('../lib/Potion')
 
 jest.mock('../lib/Potion')
 
-console.log(new Potion())
+// console.log(new Potion())
 
 test('should create a player ojbect', () => {
   const player = new Player('Dave');
